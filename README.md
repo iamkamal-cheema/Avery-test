@@ -20,14 +20,14 @@ Used Following tools:
 
 ### Details
 
-> Design Starts with the layout centered at 960px max-width
+> Design Starts with the layout centered at 960px max-width.
 >Brought in Bootstrap's magic to turn responsive mode once HTML structure and required 
-CSS was laid out
->Put in few media queries to optimize the content on mobile and tablets
->Removed background banner image on viewports smaller than 531px to communicate better the main heading
->Also wraped the left side sidebar into a dropdown panel to better fir the small screens
->replace menu with hamburger icon for small viewports
->used placeholder images for the images and font awesome for some icons
+CSS was laid out.
+>Put in few media queries to optimize the content on mobile and tablets.
+>Removed background banner image on viewports smaller than 531px to communicate better the main heading.
+>Also wraped the left side sidebar into a dropdown panel to better fir the small screens.
+>Replace menu with hamburger icon for small viewports.
+>Used placeholder images for the images and font awesome for some icons.
 
 License
 ----
