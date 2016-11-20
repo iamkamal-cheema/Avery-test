@@ -1,0 +1,262 @@
+
+
+
+/* General Rules*/
+
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 960px;
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+}
+
+.padding-adj {
+    padding-left: 0;
+    padding-right: 0;
+    background-color: #133773;
+}
+
+.padding-adj-nav {
+    padding-left: 0;
+    padding-right: 0;
+    background-color: #1b438b;
+}
+
+.topbar {
+    height: 30px;
+}
+
+.topbar p {
+    float: right;
+    margin: 0;
+    padding: 5px 5px;
+    color: white;
+}
+
+.logo-img {
+    padding-top: 25px;
+}
+
+.search-side {
+    text-align: center;
+}
+
+.search-bar {
+    margin-left: 35px;
+    margin-top: 30px;
+}
+
+.set-width {
+    width: inherit;
+}
+
+.searchNav {
+    width: 85%;
+    height: 35px;
+    vertical-align: middle;
+    border: 2px solid;
+    border-radius: 4px;
+}
+
+.redsrchbtn {
+    margin-left: -7px;
+}
+
+#LoginImg {
+    padding-left: 70px;
+}
+
+#CartImg {
+    position: absolute;
+    right: 5px;
+}
+
+.setmargin {
+    margin-top: 20px;
+}
+
+.navbar,
+.navbar-inverse {
+    border-radius: 0;
+    border: none;
+    margin-bottom: 0;
+    min-height: 80px;
+    background-color: #1b438b;
+}
+
+.nav li {
+    display: inline;
+    color: white;
+    
+}
+
+.navbar-inverse .navbar-nav > li > a {
+    color: #ffffff;
+    font-family: Lato;
+    font-size: 1.7em;
+    font-weight: 300;
+    padding: 30px 25px 33px 25px;
+}
+
+.navbar-inverse .navbar-nav li a:hover {
+    background-color: crimson;
+    transition: 0.7s all linear;
+    height: 100%;
+}
+
+.menulist {
+    text-align: center;
+    font-size: 12px;
+}
+
+.unorder {
+    color: white;
+    display: inline;
+    margin-left: 40px;
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.img-ban {
+    background: url(../img/unnamed.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 230px;
+    color: #172763;
+}
+
+.cur-links {
+    margin-top: 20px;
+    font-weight: 500;
+}
+
+.border-4 h5 {
+    border-bottom: 2px solid #efefef;
+    padding-bottom: 10px;
+}
+
+.side {
+    width: 85%;
+    height: 31px;
+    vertical-align: middle;
+    border: 2px solid;
+    border-radius: 4px;
+}
+
+.blue-label {
+    color: white;
+    background-color: #253c99;
+    text-align: center;
+}
+
+.blue-label1 {
+    color: white;
+    background-color: #253c99;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.blue-label h5 {
+    padding-top: 5px;
+}
+
+.blue-label1 h5 {
+    padding-top: 5px;
+}
+
+.red-label {
+    color: crimson;
+    display: block;
+    font-size: 18px;
+    font-weight: 400;
+    border-bottom: 2px solid #efefef;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    list-style: none;
+}
+
+.refine h4 {
+    border-bottom: 2px solid #efefef;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+.dropdown {
+    color: crimson;
+    display: none;
+    font-size: 18px;
+    font-weight: 400;
+    border-bottom: 2px solid #efefef;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    list-style: none;
+}
+
+.togglez {
+    background-color: #efefef;
+    color: black;
+    margin-bottom: 15px;
+}
+
+.togglez a {
+    font-size: 16px;
+    padding: 5px;
+    color: black;
+}
+
+.wePrint {
+    color: #02c9ff;
+}
+
+.blue-btn {
+    color: #233e97;
+}
+
+.green-btn {
+    color: #8cc540;
+}
+
+
+/* media queries*/
+
+@media only screen and (max-width: 769px) {
+    .navb {
+        text-align: center;
+    }
+    .margin-xs {
+        text-align: center;
+    }
+    .setmargin {
+        display: none;
+    }
+    .blue-label {
+        display: none;
+    }
+    .padding-adj {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 531px) {
+    .img-ban {
+        background: none;
+        background-color: #efefef;
+        height: auto;
+    }
+    .img-head {
+        width: 100%;
+        height: auto;
+    }
+    .search-bar {
+        display: none;
+    }
+    
+    
+}
